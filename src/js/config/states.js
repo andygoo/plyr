@@ -1,8 +1,10 @@
 // ==========================================================================
-// Gulp build script
+// Plyr states
 // ==========================================================================
 
-const gulp = require('gulp');
-const HubRegistry = require('gulp-hub');
+export const pip = {
+  active: 'picture-in-picture',
+  inactive: 'inline',
+};
 
-gulp.registry(new HubRegistry(['tasks/*.js']));
+export default { pip };

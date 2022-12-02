@@ -1,8 +1,5 @@
 // ==========================================================================
-// Gulp build script
+// Icons
 // ==========================================================================
 
-const gulp = require('gulp');
-const HubRegistry = require('gulp-hub');
-
-gulp.registry(new HubRegistry(['tasks/*.js']));
+$icon-size: 16px;

@@ -1,8 +1,6 @@
 // ==========================================================================
-// Gulp build script
+// Breakpoints
 // ==========================================================================
 
-const gulp = require('gulp');
-const HubRegistry = require('gulp-hub');
-
-gulp.registry(new HubRegistry(['tasks/*.js']));
+$screen-sm: 480px;
+$screen-md: 768px;

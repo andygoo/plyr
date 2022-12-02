@@ -1,8 +1,5 @@
 // ==========================================================================
-// Gulp build script
+// Cosmetic
 // ==========================================================================
 
-const gulp = require('gulp');
-const HubRegistry = require('gulp-hub');
-
-gulp.registry(new HubRegistry(['tasks/*.js']));
+$plyr-tab-focus-color: var(--plyr-tab-focus-color, var(--plyr-color-main, $plyr-color-main)) !default;

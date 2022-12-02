@@ -1,8 +1,9 @@
 // ==========================================================================
-// Gulp build script
+// Navigation
 // ==========================================================================
 
-const gulp = require('gulp');
-const HubRegistry = require('gulp-hub');
-
-gulp.registry(new HubRegistry(['tasks/*.js']));
+nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: $spacing-base;
+}

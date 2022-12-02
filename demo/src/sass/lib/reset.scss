@@ -1,8 +1,11 @@
 // ==========================================================================
-// Gulp build script
+// Resets
 // ==========================================================================
 
-const gulp = require('gulp');
-const HubRegistry = require('gulp-hub');
-
-gulp.registry(new HubRegistry(['tasks/*.js']));
+// BORDER-BOX ALL THE THINGS!
+// http://paulirish.com/2012/box-sizing-border-box-ftw/
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}

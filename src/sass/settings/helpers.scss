@@ -1,8 +1,7 @@
 // ==========================================================================
-// Gulp build script
+// Enable helpers
 // ==========================================================================
 
-const gulp = require('gulp');
-const HubRegistry = require('gulp-hub');
-
-gulp.registry(new HubRegistry(['tasks/*.js']));
+$plyr-border-box: true !default;
+$plyr-touch-action: true !default;
+$plyr-sr-only-important: true !default;

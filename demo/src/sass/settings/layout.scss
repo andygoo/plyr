@@ -1,8 +1,5 @@
 // ==========================================================================
-// Gulp build script
+// Layout
 // ==========================================================================
 
-const gulp = require('gulp');
-const HubRegistry = require('gulp-hub');
-
-gulp.registry(new HubRegistry(['tasks/*.js']));
+$container-max-width: 1240px;

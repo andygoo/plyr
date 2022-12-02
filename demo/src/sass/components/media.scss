@@ -1,8 +1,10 @@
 // ==========================================================================
-// Gulp build script
+// Basic media
 // ==========================================================================
 
-const gulp = require('gulp');
-const HubRegistry = require('gulp-hub');
-
-gulp.registry(new HubRegistry(['tasks/*.js']));
+img,
+video,
+audio {
+  max-width: 100%;
+  vertical-align: middle;
+}

@@ -1,8 +1,11 @@
 // ==========================================================================
-// Gulp build script
+// Lists
 // ==========================================================================
 
-const gulp = require('gulp');
-const HubRegistry = require('gulp-hub');
-
-gulp.registry(new HubRegistry(['tasks/*.js']));
+// Lists
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

@@ -1,8 +1,7 @@
 // ==========================================================================
-// Gulp build script
+// Misc cosmetic
 // ==========================================================================
 
-const gulp = require('gulp');
-const HubRegistry = require('gulp-hub');
-
-gulp.registry(new HubRegistry(['tasks/*.js']));
+.no-border {
+  border: 0;
+}
